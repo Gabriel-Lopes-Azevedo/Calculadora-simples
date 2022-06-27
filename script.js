@@ -9,7 +9,7 @@ function somar () {
     if (n1.value === "" || n2.value === "") {
         alert("Campo vazio detectado, insira um número para realizar o cálculo!");
     } else {
-        res.innerHTML = "O resultado da soma é " + soma + ".";       
+        res.innerHTML = "O resultado é " + soma + ".";       
     }
 }
 
@@ -24,7 +24,7 @@ function subtrair () {
     if (n1.value === "" || n2.value === "") {
         alert("Campo vazio detectado, insira um número para realizar o cálculo!");
     } else {
-        res.innerHTML = "O resultado da soma é " + sub + ".";       
+        res.innerHTML = "O resultado é " + sub + ".";       
     }
 }
 
@@ -39,7 +39,7 @@ function dividir () {
     if (n1.value === "" || n2.value === "") {
         alert("Campo vazio detectado, insira um número para realizar o cálculo!");
     } else {
-        res.innerHTML = "O resultado da soma é " + div + ".";       
+        res.innerHTML = "O resultado é " + div + ".";       
     }
 }
 
@@ -54,6 +54,6 @@ function multiplicar () {
     if (n1.value === "" || n2.value === "") {
         alert("Campo vazio detectado, insira um número para realizar o cálculo!");
     } else {
-        res.innerHTML = "O resultado da soma é " + mul + ".";    
+        res.innerHTML = "O resultado é " + mul + ".";    
     }
 }
